@@ -1,0 +1,33 @@
+{
+  "name": "crm",
+  "version": "0.0.1",
+  "description": "This is a simple crm built using nodejs and mongo db as database, also a playground to test APIs and practise best practises for api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klick-kruti/crm.git"
+  },
+  "keywords": [
+    "crm",
+    "node",
+    "api",
+    "mongodb",
+    "simple"
+  ],
+  "author": "Kruti Chokshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klick-kruti/crm/issues"
+  },
+  "homepage": "https://github.com/klick-kruti/crm#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jshint": "^2.13.3",
+    "nodemon": "^2.0.15"
+  }
+}
