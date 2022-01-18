@@ -9,15 +9,13 @@ Using Express, we simplify API development by abstracting away the boilerplate n
 
 Nodemon: This package is ued to create a live server. It is a utility that will monitor for any changes in your source and automatically restart your server. Perfect for rapid development.ß
 
- swagger-ui-express: For serving the swagger user interface in our API.
+ [body-parser](https://www.npmjs.com/package/body-parser): helps us decode the body from an HTTP request
 
- [body-parser] (https://www.npmjs.com/package/body-parser): helps us decode the body from an HTTP request
+ [mongoose](https://www.npmjs.com/package/mongoose): nosql database used
 
- [mongoose] (https://www.npmjs.com/package/mongoose): nosql database used
+ [dotenv](https://www.npmjs.com/package/dotenv): environment configuration and storing the passwords for intergrated tools eg.database
 
- [dotenv] (https://www.npmjs.com/package/dotenv): environment configuration and storing the passwords for intergrated tools eg.database
-
- cross-origin resource sharing: s a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served. This will add CORS to the header of the request.
+ [cross-origin](https://www.npmjs.com/package/cors) resource sharing: s a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served. This will add CORS to the header of the request.
 
 -------------------------
 
@@ -35,5 +33,5 @@ Nodemon: This package is ued to create a live server. It is a utility that will 
 https://oai.github.io/Documentation/introduction.html
 https://swagger.io/blog/api-strategy/difference-between-swagger-and-openapi/
 
- https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
- https://www.npmjs.com/package/swagger-ui-express
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
+https://www.npmjs.com/package/swagger-ui-express
