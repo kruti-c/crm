@@ -1,5 +1,10 @@
 ## Building a simple CRM using node.js and mongoDB. 
 
+### TODOs
+- [ ] Expand on the USER model 
+- [ ] Create APIs on the expanded USER model
+
+
 
 ------------------------------
 ### NPM Packages
